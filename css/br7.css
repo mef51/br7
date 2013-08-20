@@ -1,8 +1,7 @@
 /** 
 * Define our styles here
 */ 
-
-.section {
-    width: 100%;
-    background-color: black;
+.starter-template {
+    padding: 40px 15px;
+    text-align: center;
 }
