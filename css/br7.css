@@ -1,8 +1,12 @@
-/** 
+/**
 * Define our styles here
-*/ 
+*/
 
 .navbar {
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
+}
+
+.panel-heading {
+    font-weight: bold;
 }
