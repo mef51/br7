@@ -1,6 +1,17 @@
 /**
 * Define our styles here
 */
+body {
+    color: #fff;
+}
+
+.well blockquote {
+    border-color: #ddd;
+}
+
+blockquote p {
+    font-size: 14px
+}
 
 .navbar {
     border-top-left-radius: 0px;
@@ -14,4 +25,29 @@
 .nav {
     text-transform: uppercase;
     font-weight: bold;
+}
+
+.nav a {
+    color: #c8c8c8;
+}
+
+.icon {
+    width: 125px;
+    height: 125px;
+}
+
+.tourney {
+    padding-bottom: 50px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.tagline {
+    font-style: italic;
 }
