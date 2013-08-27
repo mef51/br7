@@ -3,14 +3,25 @@
 */
 body {
     color: #fff;
+    background-image: url('../img/binding_dark.png');
+    background-repeat: repeat;
 }
 
 .well blockquote {
     border-color: #ddd;
 }
 
+.well {
+    background-color: #303338;
+}
+
 blockquote p {
     font-size: 14px
+}
+
+.jumbotron {
+    background-image:url('../img/bannerbg.png');
+    border: 1px solid black;
 }
 
 .navbar {
