@@ -7,30 +7,7 @@ body {
     background-repeat: repeat;
 }
 
-.well blockquote {
-    border-color: #ddd;
-}
-
-.well {
-    background-color: #303338;
-}
-
-blockquote p {
-    font-size: 14px
-}
-
-.jumbotron {
-    background-image:url('../img/bannerbg.png');
-    border: 1px solid black;
-}
-
-.navbar {
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-}
-
-.panel-heading {
-    font-weight: bold;
+body > .container {
 }
 
 .nav {
@@ -40,6 +17,39 @@ blockquote p {
 
 .nav a {
     color: #c8c8c8;
+}
+
+.well blockquote {
+    border-color: #ddd;
+}
+
+.well {
+    background-color: #303338;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.6);
+}
+
+blockquote p {
+    font-size: 14px
+}
+
+.jumbotron {
+    background-image:url('../img/bannerbg.png');
+    border: 1px solid black;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.6);
+}
+
+.navbar {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.6);
+}
+
+.panel {
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.6);
+}
+
+.panel-heading {
+    font-weight: bold;
 }
 
 .icon {
