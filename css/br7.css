@@ -7,6 +7,10 @@ body {
     background-repeat: repeat;
 }
 
+a {
+    color: #c8c8c8;
+}
+
 body > .container {
 }
 
@@ -25,7 +29,7 @@ body > .container {
 
 .well {
     background-color: #303338;
-    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.3);
 }
 
 blockquote p {
@@ -35,17 +39,17 @@ blockquote p {
 .jumbotron {
     background-image:url('../img/bannerbg.png');
     border: 1px solid black;
-    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.3);
 }
 
 .navbar {
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
-    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.3);
 }
 
 .panel {
-    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.3);
 }
 
 .panel-heading {
