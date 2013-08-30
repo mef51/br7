@@ -11,11 +11,16 @@ a {
     color: #c8c8c8;
 }
 
-body > .container {
+h1,h2,h3,h4,h5,h6 {
+    font-weight: bold;
 }
 
 .sponsors {
     padding: 25px 0px;
+}
+
+.past-sponsors p {
+    font-size: 12pt;
 }
 
 .nav {
