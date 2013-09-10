@@ -49,6 +49,7 @@ blockquote p {
     background-image:url('../img/bannerbg.png');
     border: 1px solid black;
     box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 2px 4px #141517;
 }
 
 .navbar {
@@ -59,6 +60,7 @@ blockquote p {
 
 .panel {
     box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.3);
+    font-size: 12pt;
 }
 
 .panel-heading {
@@ -68,6 +70,17 @@ blockquote p {
 .icon {
     width: 125px;
     height: 125px;
+}
+
+.social-media-icon {
+    margin: 0;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+}
+
+a.menu-icon {
+    padding: 0px;
 }
 
 .tourney {
@@ -80,6 +93,7 @@ blockquote p {
     text-transform: uppercase;
     padding-bottom: 0px;
     margin-bottom: 0px;
+    text-shadow: 4px 4px 10px #141517;
 }
 
 .tagline {
