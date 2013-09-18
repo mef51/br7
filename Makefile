@@ -1,0 +1,4 @@
+
+go: 
+	python -m SimpleHTTPServer
+
