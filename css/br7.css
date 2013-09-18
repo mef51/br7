@@ -48,12 +48,19 @@ blockquote p {
 }
 
 .thumbnail {
-    padding: 10px;
+    padding: 0px;
     margin: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.thumbnail > .name {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .heading {
-    padding-bottom: 20px
+    padding-bottom: 20px;
 }
 
 .jumbotron {
@@ -115,5 +122,13 @@ a.menu-icon {
     font-style: italic;
 }
 
+.organizers-row {
+    margin: 0 auto;
+    text-align: center;
+}
 
 /** Ids **/
+
+#volunteer-blurb {
+    padding-top: 40px;
+}
