@@ -1,7 +1,7 @@
 Battle Royale Seven Website
 ===
 
-The website for Battle Royale Seven.
+The website for Battle Royale Seven. Live now at [www.battleroyale.ca/](http://www.battleroyale.ca/).
 
 The site uses jquery for an "include" system. You'll need to run an http server to see the site properly. Python has a quick way of setting this up.
 
