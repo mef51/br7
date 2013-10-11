@@ -25,7 +25,7 @@
 
     <body>
         <div id="menu" class="container">
-            <script type="text/javascript">include("menu");</script>
+            <script type="text/javascript">includeHTML("menu");</script>
         </div>
         <div id="content" class="container">
             <div class="jumbotron">
@@ -39,38 +39,31 @@
                     </p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="panel panel-primary">
-                        <div class="panel-heading">
-                            Coming Soon!
-                            <div class='pull-right'><small>September 9, 2013</small></div>
-                        </div>
-                        <div class="panel-body">
-                            It's time for Battle Royale once more and the team is hard at work to pull off a great event.
-                            <br><br>
-                            We'll be releasing <strong>Ticket</strong>, <strong>Venue</strong>, and <strong>Date</strong> information as it comes in during the next few weeks so stay tuned
-                            and check back here for updates. We're having trouble booking our usual venue, and are working hard on finding an alternative.
-                            <br><br>
-                            Tournaments have been decided upon so be sure to check out the <a href='tournaments.html'>Tournaments</a> page
+            <div id='posts'>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                Coming Soon!
+                                <div class='pull-right'><small>September 9, 2013</small></div>
+                            </div>
+                            <div class="panel-body">
+                                It's time for Battle Royale once more and the team is hard at work to pull off a great event.
+                                <br><br>
+                                We'll be releasing <strong>Ticket</strong>, <strong>Venue</strong>, and <strong>Date</strong> information as it comes in during the next few weeks so stay tuned
+                                and check back here for updates. We're having trouble booking our usual venue, and are working hard on finding an alternative.
+                                <br><br>
+                                Tournaments have been decided upon so be sure to check out the <a href='tournaments.html'>Tournaments</a> page
+                            </div>
                         </div>
                     </div>
                 </div>
-                <!--
-                <div class="col-lg-4">
-                    <div class="panel panel-primary">
-                        <div class="panel-heading text-center">
-                            At a Glance
-                        </div>
-                        <div class="panel-body text-center">
-                            <i>To be glanced at!</i>
-                        </div>
-                    </div>
-                </div> -->
             </div>
         </div>
         <div id="footer" class="container">
-            <script type="text/javascript">include("footer");</script>
+            <script type="text/javascript">includeHTML("footer");</script>
         </div>
+        <script id='postTemplate' type='text/javascript'>includeHTML('postTemplate', 'templates/');</script>
+        <script src='js/poster.js'></script>
     </body>
 </html>
