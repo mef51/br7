@@ -157,3 +157,8 @@ a.menu-icon {
     padding: 0px;
     margin: 0px;
 }
+#border{
+border:4px solid #a1a1a1;
+padding:10px 40px;
+background: #141F1F;
+}
