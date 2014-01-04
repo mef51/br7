@@ -34,6 +34,10 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: bold;
 }
 
+span.uppercase {
+    text-transform: uppercase;
+}
+
 a.nav  {
     color: #c8c8c8;
 }
@@ -134,13 +138,25 @@ a.menu-icon {
     text-shadow: 4px 4px 4px #141517;
 }
 
+.shadow-small {
+    text-shadow: 2px 2px 2px #141517;
+}
+
 .tagline {
     font-style: italic;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .organizers-row {
     margin: 0 auto;
     text-align: center;
+}
+
+ul.prizes {
+    border-top: 3px solid rgba(255, 255, 255, 0.2);
+    list-style-type: none;
+    padding-left: 0px;
 }
 
 /** Ids **/
