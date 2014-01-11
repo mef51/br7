@@ -147,6 +147,10 @@ div.minor-tourney > span {
     text-shadow: 4px 4px 5px #141517;
 }
 
+.big {
+    font-size: 25px;
+}
+
 .shadow {
     text-shadow: 4px 4px 4px #141517;
 }
