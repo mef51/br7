@@ -30,6 +30,14 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: bold;
 }
 
+.donate-msg {
+    font-size: 16px;
+}
+
+.donate-widget {
+    padding-top: 50px;
+}
+
 .emphasis {
     font-weight: bold;
 }
@@ -62,6 +70,11 @@ a.navbar-brand {
 
 blockquote p {
     font-size: 14px
+}
+
+.twitchvid {
+    margin-left: 20px;
+    margin-right: 50px;
 }
 
 .thumbnail {
